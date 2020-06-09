@@ -9,7 +9,7 @@ export default function MediaCard(props) {
             <div className={styles.card}>
                 <h2>{props.name}</h2>
                 <p>{props.title}</p>
-                <img className={styles.image} src={props.imgUrl} alt={`${props.name} image`}/>
+                <img className={styles.image} src={props.imgUrl} alt={props.name}/>
             </div>
         </div>
     )
